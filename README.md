@@ -7,7 +7,7 @@ A trivial benchmark to showcase Cache Line False Sharing in action, on x86 SMT/H
 ### OPTIONS
 `--nofalse-sharing` : Run without false sharing
 
-`--rand-sibling-threads` : Autodetect sibling thread pairs and choose a random one
+`--rand-sibling-threads` : Autodetect sibling thread pairs and choose a random one. (sibling threads are threads that share the same physical core)
 
 `--cpu-list <space> <core0>,<core1>` : Use virtual cores `core0` and `core1`
   
